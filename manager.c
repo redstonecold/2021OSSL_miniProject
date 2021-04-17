@@ -70,7 +70,7 @@ int deleteProduct(Product *p){
     p->price = -1;
     return 1;
 }
-/*
+
 int loadData(Product *p){
     FILE *fp;
     fp = fopen("product.txt","rt");
@@ -88,7 +88,7 @@ int loadData(Product *p){
         printf("=> 로딩 성공!\n");
     }
     return i;
-}*/
+}
 
 void saveData(Product *p, int count){
     FILE *fp;
