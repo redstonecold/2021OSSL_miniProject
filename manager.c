@@ -73,7 +73,7 @@ int deleteProduct(Product *p){
 
 int loadData(Product *p){
     FILE *fp;
-    fp = fopen("product.txt","rt");
+    fp = fopen("manager.txt","rt");
     int i = 0;
 
     if(fp == NULL){
@@ -92,7 +92,7 @@ int loadData(Product *p){
 
 void saveData(Product *p, int count){
     FILE *fp;
-    fp = fopen("product.txt","wt");
+    fp = fopen("manager.txt","wt");
 
     for(int i=0; i<count; i++){
         if(p[i].price == -1) continue;
