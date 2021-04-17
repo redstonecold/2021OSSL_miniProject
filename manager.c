@@ -89,7 +89,7 @@ int loadData(Product *p){
     }
     return i;
 }*/
-/*
+
 void saveData(Product *p, int count){
     FILE *fp;
     fp = fopen("product.txt","wt");
@@ -100,7 +100,7 @@ void saveData(Product *p, int count){
     }
     fclose(fp);
     printf("저장됨!\n");
-}*/
+}
 /*
 void searchName(Product *p, int count){
     char searchn[20];
