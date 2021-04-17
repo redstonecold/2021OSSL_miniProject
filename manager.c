@@ -122,7 +122,6 @@ void searchName(Product *p, int count){
     if(scnt == 0) printf("=> 검색된 데이터 없음!");
     printf("\n");
 }
-/*
 void searchPrice(Product *p, int count){
     int searchp;
     int scnt = 0;
@@ -142,7 +141,7 @@ void searchPrice(Product *p, int count){
     }
     if(scnt == 0) printf("=> 검색된 데이터 없음!");
     printf("\n");
-};*/
+};
 /*
 void searchWeight(Product *p, int count){
     int searchw;
