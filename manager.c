@@ -101,7 +101,7 @@ void saveData(Product *p, int count){
     fclose(fp);
     printf("저장됨!\n");
 }
-/*
+
 void searchName(Product *p, int count){
     char searchn[20];
     int scnt = 0;
@@ -121,7 +121,7 @@ void searchName(Product *p, int count){
     }
     if(scnt == 0) printf("=> 검색된 데이터 없음!");
     printf("\n");
-}*/
+}
 /*
 void searchPrice(Product *p, int count){
     int searchp;
