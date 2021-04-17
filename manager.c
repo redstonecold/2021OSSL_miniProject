@@ -5,10 +5,10 @@
 int selectMenu(){
     int snum;
     printf("\n*** MiniProject ***\n1. 제품조회\n2. 제품추가\n3. 제품수정\n4. 제품삭제\n");
-    /*printf("5. 파일저장\n");
+    printf("5. 파일저장\n");
     printf("6. 이름검색\n");
     printf("7. 가격검색\n");
-    printf("8. 무게검색\n");*/
+    printf("8. 무게검색\n");
     printf("0. 종료\n\n");
     printf("=> 원하는 메뉴는? ");
     scanf("%d",&snum);
